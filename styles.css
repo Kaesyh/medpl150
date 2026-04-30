@@ -28,7 +28,7 @@
 }
 
 .body_text_page1 {
-    color: rgb (232, 231, 231);
+    color: var (232, 231, 231);
     font-weight: public sans;
     text-align:center; 
 }

@@ -4,23 +4,22 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     object-fit: fill;
     border-style: solid;
-    border-width: 10 px;
-    border-color: rgb (41, 38, 68);
-    border-radius: 5 px; 
+    border-width: 10px;
+    border-color: rgb(41, 38, 68);
+    border-radius: 5px; 
 }
 
 .text-page2 {
-    position:absolute;
-    top: 90 %;
-    left: 50 %;
-    transform: translate (-15 %, -650 %);
-    color: rgb (159, 18, 18);
-    font-size: 30 px;
-    font-weight: public sans;
-    text-shadow: 2 px 2 px 4 px rgba (0, 0, 0, 0); 
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-15%, -650%);
+    color: rgb(159, 18, 18);
+    font-size: 30px;
+    font-family: "Public Sans", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0); 
 }
 
 .background-page1 {
@@ -28,9 +27,9 @@
 }
 
 .body_text_page1 {
-    color: var (232, 231, 231);
-    font-weight: public sans;
-    text-align:center; 
+    color: rgb(232, 231, 231);
+    font-family: "Public Sans", sans-serif;
+    text-align: center; 
 }
 
 .background_page2 {
@@ -38,28 +37,28 @@
 }
 
 .body_text_page2 {
-     color: rgb (203, 194, 194);
-    font-weight: public sans;
-    text-align:center; 
+    color: rgb(203, 194, 194);
+    font-family: "Public Sans", sans-serif;
+    text-align: center; 
 }
 
 .body_text_page2_pt2 {
-     color: rgb (203, 194, 194);
-    font-weight: serif;
-    text-align:center; 
+    color: rgb(203, 194, 194);
+    font-family: serif;
+    text-align: center; 
 }
 
 .lamp_phone {
     display: flex;
-    gap: 100 px;
+    gap: 100px;
     width: fit-content;
     margin: 0 auto;
 }
 
 .choice_page3 {
-    color: rgb (167, 165, 246);
-    font-weight: serif;
-    text-align:center;
+    color: rgb(167, 165, 246);
+    font-family: serif;
+    text-align: center;
 }
 
 .background_lamp {
@@ -67,100 +66,96 @@
 }
 
 .choice_page4 {
-     color: rgb (166, 205, 51);
-    font-weight: serif;
-    text-align:center;
+    color: rgb(166, 205, 51);
+    font-family: serif;
+    text-align: center;
 }
 
 .section {
     display: flex;
-    gap: 100 px;
+    gap: 100px;
     width: fit-content;
-    margin:auto;
+    margin: auto;
 }
 
-
 .body_text_page4 {
-    color: rgb (212, 192, 231);
-    font-weight: serif;
-    text-align:center; 
-    margin-bottom: 80 px;
-   
+    color: rgb(212, 192, 231);
+    font-family: serif;
+    text-align: center; 
+    margin-bottom: 80px;
 }
 
 .background_ending {
-    background-color: rgb (0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 .links {
-    color: rgb (77, 55, 98);
+    color: rgb(77, 55, 98);
     text-align: center;
 }
 
 .letra_encima {
-    position:absolute;
-    top: 90 %;
-    left: -38 %;
-    transform: translate (160 %, -1010 %);
-    color: rgb (17, 15, 15);
-    font-size: 20 px;
-    font-weight: public sans;   
+    position: absolute;
+    top: 90%;
+    left: -38%;
+    transform: translate(160%, -1010%);
+    color: rgb(17, 15, 15);
+    font-size: 20px;
+    font-family: "Public Sans", sans-serif;   
 }
 
 .meow {
     text-align: center;
-    color: rgb (170, 98, 232);
-    font-size: 25 px;
-    font-weight: public sans;
-    text-shadow: 2 px 2 px 4 px rgba (220, 208, 223, 0.5);
-
+    color: rgb(170, 98, 232);
+    font-size: 25px;
+    font-family: "Public Sans", sans-serif;
+    text-shadow: 2px 2px 4px rgba(220, 208, 223, 0.5);
 }
+
 .letra_encima2 {
-    position:absolute;
-    top: 90 %;
-    left: -45 %;
-    transform: translate (130 %, -120 %);
-    color: rgb (248, 235, 235);
-    font-size: 25 px;
-    font-weight: public sans;
+    position: absolute;
+    top: 90%;
+    left: -45%;
+    transform: translate(130%, -120%);
+    color: rgb(248, 235, 235);
+    font-size: 25px;
+    font-family: "Public Sans", sans-serif;
 } 
 
 .encima {
-    position:absolute;
-    top: 90 %;
-    left: -45 %;
-    transform: translate (130 %, -860 %);
-    color: rgb (11, 15, 113);
-    font-size: 25 px;
-    font-weight: public sans
+    position: absolute;
+    top: 90%;
+    left: -45%;
+    transform: translate(130%, -860%);
+    color: rgb(11, 15, 113);
+    font-size: 25px;
+    font-family: "Public Sans", sans-serif;
 }
 
 .container {
     float: left;
     background: #625581;
-    padding: 50 px;
-    width: 150 px;
+    padding: 50px;
+    width: 150px;
     text-align: center;
-    font-size: 20 px;
-    margin: 50 px;
+    font-size: 20px;
+    margin: 50px;
 }
 
 .container2 {
     float: right;
-    background:#625581;
-    padding: 50 px;
-    width: 150 px;
+    background: #625581;
+    padding: 50px;
+    width: 150px;
     text-align: center;
-    font-size: 20 px;
-    margin: 50 px;
+    font-size: 20px;
+    margin: 50px;
 }
 
-
 .link_2 {
-    color: rgb (132, 79, 181);
+    color: rgb(132, 79, 181);
     text-align: left;
     float: left;
-
 }
 
 .background3 {
@@ -168,103 +163,90 @@
 }
 
 .body_text_sleep {
-    color: rgb (143, 148, 195);
+    color: rgb(143, 148, 195);
     font-weight: bold;
-    text-align:center; 
-    transform: translate (9 %, 550 %);
-    
+    text-align: center; 
+    transform: translate(9%, 550%);
 }
 
 .body_text_close {
-    color: rgb (143, 148, 195);
+    color: rgb(143, 148, 195);
     font-weight: bold;
-    text-align:center; 
-    transform: translate (4 %, 1100 %);
+    text-align: center; 
+    transform: translate(4%, 1100%);
 }
 
 .title {
-     position:absolute;
-    top: -30 %;
-    left: -93 %;
-    transform: translate (440 %, 550 %);
-    color: rgb (158, 158, 197);
-    font-weight: public sans
-    
+    position: absolute;
+    top: -30%;
+    left: -93%;
+    transform: translate(440%, 550%);
+    color: rgb(158, 158, 197);
+    font-family: "Public Sans", sans-serif;
 }
 
 .title5 {
-     position:absolute;
-    top: -45 %;
-    left: -73 %;
-    transform: translate (370 %, 550 %);
-    color: rgb (158, 158, 197);
-    font-weight: public sans
+    position: absolute;
+    top: -45%;
+    left: -73%;
+    transform: translate(370%, 550%);
+    color: rgb(158, 158, 197);
+    font-family: "Public Sans", sans-serif;
 }
 
 .choice_sleep {
     text-align: center;
-    color: rgb (143, 150, 233);
-    font-size: 20 px;
-    font-weight: public sans;
-    text-shadow: 2 px 2 px 4 px rgba (53, 68, 197, 0.5);
+    color: rgb(143, 150, 233);
+    font-size: 20px;
+    font-family: "Public Sans", sans-serif;
+    text-shadow: 2px 2px 4px rgba(53, 68, 197, 0.5);
     position: absolute;
-    top: 450 px;
-    right: 350 px;
-    bottom:450 px;
+    top: 450px;
+    right: 350px;
+    bottom: 450px;
 }
 
 .links_6 {
-    color: rgb (132, 79, 181);
+    color: rgb(132, 79, 181);
     text-align: center;
     position: absolute;
-    bottom: 190 px;
-    right: 230 px;
+    bottom: 190px;
+    right: 230px;
 }
 
-.go_back
-{color: rgb (132, 79, 181);
+.go_back {
+    color: rgb(132, 79, 181);
     text-align: left;
     float: left;
     position: absolute;
-    bottom: 350 px;
-
+    bottom: 350px;
 }
 
 .background4 {
     background-color: #1c0101;
 }
 
-.img {
-   display: block;
-    margin-left: 50 px;
-    margin-right: auto;
-    object-fit: fill;
-    border-width: 10 px;
-    border-color: rgb (41, 38, 68);
-    border-radius: 5 px; 
-    
-}
+/* Mantengo una sola definición de .img (la de arriba) */
 
 .link5 {
-    color: rgb (132, 79, 181);
+    color: rgb(132, 79, 181);
     text-align: center;
     position: absolute;
-    bottom: 200 px;
-    right: 260 px;
+    bottom: 200px;
+    right: 260px;
 }
 
 .body_text_open {
-    color: rgb (198, 168, 213);
+    color: rgb(198, 168, 213);
     font-weight: bold;
-    text-align:center; 
-    transform: translate (1 %, 100 %);
+    text-align: center; 
+    transform: translate(1%, 100%);
 }
 
-
 .links_7 {
-    color: rgb (132, 79, 181);
+    color: rgb(132, 79, 181);
     text-align: center;
-    bottom: -140 px;
-    right: -40 px;
+    bottom: -140px;
+    right: -40px;
     position: relative;
 }

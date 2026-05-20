@@ -7,7 +7,7 @@ img {
     object-fit: fill;
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(41, 38, 68);
+    border-color: rgb(248, 248, 250);
     border-radius: 5px; 
 }
 
@@ -259,7 +259,6 @@ img {
     transform: translate(1%, 100%);
 }
 
-
 .links_7 {
     color: rgb(132, 79, 181);
     text-align: center;
@@ -288,3 +287,11 @@ img {
     
 }
 
+.indexpage {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f2f1f5;
+}
+
+
+ 
